@@ -2,7 +2,13 @@
 
 :root {
   --primary-color: #1e1e1e;
+  --variant-color: #242424;
   --secundary-color: #ececec;
+  --hover-color: #ececec4d;
+
+  --red-color: #ff5050;
+  --green-color: #78ff8c;
+  --yellow-color: #ffff71;
 }
 
 * {
@@ -16,4 +22,12 @@ body {
   background-color: var(--primary-color);
   color: var(--secundary-color);
   font-family: 'Inter', sans-serif;
+}
+
+#app {
+  height: 100dvh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
