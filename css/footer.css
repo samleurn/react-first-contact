@@ -1,0 +1,17 @@
+@import url(layout.css);
+
+.footer {
+  display: flex;
+  text-align: end;
+  justify-content: end;
+  height: var(--footer-height);
+  align-items: center;
+}
+
+.footer p {
+  display: flex;
+  height: max-content;
+  margin-right: var(--margin-default);
+
+  /* padding: 0 25px 25px 0; */
+}

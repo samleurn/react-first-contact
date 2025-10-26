@@ -9,6 +9,13 @@
   --red-color: #ff5050;
   --green-color: #78ff8c;
   --yellow-color: #ffff71;
+
+  --margin-default: 24px;
+  --dots-size: 15px;
+
+  --header-height: calc((2 * 24px) + 15px);
+  --footer-height: calc((2 * 24px) + 15px);
+  --content-height: calc(270px - var(--header-height) - var(--footer-height ));
 }
 
 * {
@@ -21,7 +28,7 @@
 body {
   background-color: var(--primary-color);
   color: var(--secundary-color);
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter';
 }
 
 #app {
@@ -30,4 +37,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.hide {
+  display: none;
 }

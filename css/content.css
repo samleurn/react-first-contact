@@ -1,0 +1,43 @@
+@import url(layout.css);
+
+.content {
+  height: var(--content-height);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: calc(20px + 15px + 15px + 30px); */
+}
+
+.content .button_count {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+
+  border-radius: 50px;
+  height: 55px;
+  width: 140px;
+  outline: none;
+  border: none;
+
+  font-family: inherit;
+  font-size: 20px;
+  font-weight: 400;
+
+  transition: 0.1s ease;
+  background-color: var(--variant-color);
+  color: var(--secundary-color);
+}
+
+.content .button_count:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 0 50px var(--hover-color);
+}
+
+.content .button_count:active {
+  transform: translateY(1px);
+  color: var(--primary-color);
+  background-color: var(--secundary-color);
+  box-shadow: 0 0 30px var(--hover-color);
+}
