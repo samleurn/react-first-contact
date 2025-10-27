@@ -15,7 +15,7 @@
 
   --header-height: calc((2 * 24px) + 15px);
   --footer-height: calc((2 * 24px) + 15px);
-  --content-height: calc(270px - var(--header-height) - var(--footer-height ));
+  --content-height: calc(270px - var(--header-height) - var(--footer-height));
 }
 
 * {
@@ -40,5 +40,5 @@ body {
 }
 
 .hide {
-  display: none;
+  display: none !important;
 }
